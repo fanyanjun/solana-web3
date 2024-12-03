@@ -80,9 +80,10 @@ func (t tokenKit2022) CreateTokenV1(
 			withdrawWithheldAuthority,
 		))
 
-		e, _ := json.Marshal(extensions_)
-		logrus.Info("extensions_:", string(e))
 	}
+	e, _ := json.Marshal(extensions_)
+	logrus.Info("extensions_:", string(e))
+
 	var additionalMetadata []struct {
 		Key   string
 		Value string
