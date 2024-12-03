@@ -27,6 +27,15 @@ type TokenMetadata struct {
 		Key   string
 		Value string
 	}
+
+	//add fanyanjun
+	Creators             *[]Creator
+}
+
+type Creator struct {
+	Address  common.PublicKey
+	Verified bool
+	Share    uint8
 }
 
 func (obj *TokenMetadata) MarshalWithEncoder(encoder *binary.Encoder) (err error) {

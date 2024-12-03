@@ -27,6 +27,7 @@ type BasicMetadataV1 struct {
 	Uri         string
 	Description string
 	Additional  map[string]string
+	Creators    *[]token_metadata.Creator
 }
 
 func (t tokenKit2022) CreateTokenV1(
