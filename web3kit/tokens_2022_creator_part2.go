@@ -2,11 +2,13 @@ package web3kit
 
 import (
 	"context"
+	"encoding/json"
 
 	. "github.com/fanyanjun/solana-web3/spl_token_2022"
 	. "github.com/fanyanjun/solana-web3/spl_token_2022/extension"
 	"github.com/fanyanjun/solana-web3/token_metadata"
 	"github.com/fanyanjun/solana-web3/web3"
+	"github.com/sirupsen/logrus"
 )
 
 type CreateTokenArgs2022V1 struct {
@@ -77,6 +79,9 @@ func (t tokenKit2022) CreateTokenV1(
 			transferFeeConfigAuthority,
 			withdrawWithheldAuthority,
 		))
+
+		e, _ := json.Marshal(extensions_)
+		logrus.Info("extensions_:", string(e))
 	}
 	var additionalMetadata []struct {
 		Key   string
