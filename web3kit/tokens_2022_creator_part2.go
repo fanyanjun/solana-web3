@@ -37,7 +37,7 @@ func (t tokenKit2022) CreateTokenV1(
 	payer web3.Signer,
 	owner web3.ComplexSigner,
 	args CreateTokenArgs2022V1,
-	metaProvider FileProvider,
+	metaProvider *FileProvider,
 	metaType MetadataProvider,
 	commitment web3.Commitment,
 ) (web3.TransactionSignature, web3.PublicKey, error) {
@@ -71,7 +71,8 @@ func (t tokenKit2022) CreateTokenV1(
 	}
 	if args.Fee != nil {
 		extensions_ = append(extensions_, NewTransferFeeConfigParams(
-			max(100_00 /*100%*/, *args.Fee),
+			//max(100_00 /*100%*/, *args.Fee),
+			max(0 /*100%*/, *args.Fee),
 			max(0, args.MaximumFee),
 			transferFeeConfigAuthority,
 			withdrawWithheldAuthority,
