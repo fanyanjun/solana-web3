@@ -5,7 +5,7 @@ package transfer_fee
 
 import (
 	"errors"
-	common "github.com/donutnomad/solana-web3/common"
+	common "github.com/fanyanjun/solana-web3/common"
 	binary "github.com/gagliardetto/binary"
 	format "github.com/gagliardetto/solana-go/text/format"
 	treeout "github.com/gagliardetto/treeout"

@@ -2,7 +2,8 @@ package web3
 
 import (
 	"encoding/json"
-	"github.com/donutnomad/solana-web3/web3/utils"
+
+	"github.com/fanyanjun/solana-web3/web3/utils"
 )
 
 const versionPrefixMask = 0x7f

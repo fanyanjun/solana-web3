@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/donutnomad/solana-web3/web3"
+	"github.com/fanyanjun/solana-web3/web3"
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/text/format"
 )

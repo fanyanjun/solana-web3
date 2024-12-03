@@ -4,7 +4,7 @@
 package transfer_fee
 
 import (
-	common "github.com/donutnomad/solana-web3/common"
+	common "github.com/fanyanjun/solana-web3/common"
 	binary "github.com/gagliardetto/binary"
 )
 

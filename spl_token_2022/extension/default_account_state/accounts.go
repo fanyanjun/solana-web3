@@ -4,7 +4,7 @@
 package default_account_state
 
 import (
-	spltoken2022 "github.com/donutnomad/solana-web3/spl_token_2022"
+	spltoken2022 "github.com/fanyanjun/solana-web3/spl_token_2022"
 	binary "github.com/gagliardetto/binary"
 )
 

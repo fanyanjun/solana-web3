@@ -3,9 +3,10 @@ package web3kit
 import (
 	"context"
 	"encoding/binary"
-	ata "github.com/donutnomad/solana-web3/associated_token_account"
-	"github.com/donutnomad/solana-web3/spl_token_2022"
-	"github.com/donutnomad/solana-web3/web3"
+
+	ata "github.com/fanyanjun/solana-web3/associated_token_account"
+	"github.com/fanyanjun/solana-web3/spl_token_2022"
+	"github.com/fanyanjun/solana-web3/web3"
 )
 
 // GetProgramAccountsOption represents options for filtering program accounts.

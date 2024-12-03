@@ -2,9 +2,10 @@ package web3kit
 
 import (
 	"context"
-	ata "github.com/donutnomad/solana-web3/associated_token_account"
-	"github.com/donutnomad/solana-web3/token_metadata"
-	"github.com/donutnomad/solana-web3/web3"
+
+	ata "github.com/fanyanjun/solana-web3/associated_token_account"
+	"github.com/fanyanjun/solana-web3/token_metadata"
+	"github.com/fanyanjun/solana-web3/web3"
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/programs/system"
 	"github.com/gagliardetto/solana-go/programs/token"

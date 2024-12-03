@@ -3,10 +3,11 @@ package common
 import (
 	"context"
 	"fmt"
-	"github.com/donutnomad/solana-web3/associated_token_account"
-	"github.com/donutnomad/solana-web3/irys"
-	"github.com/donutnomad/solana-web3/web3"
-	"github.com/donutnomad/solana-web3/web3kit"
+
+	"github.com/fanyanjun/solana-web3/associated_token_account"
+	"github.com/fanyanjun/solana-web3/irys"
+	"github.com/fanyanjun/solana-web3/web3"
+	"github.com/fanyanjun/solana-web3/web3kit"
 )
 
 // LamportsToSol Approximately convert fractional native tokens (lamports) into native tokens (SOL)

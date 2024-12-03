@@ -4,12 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	ata "github.com/donutnomad/solana-web3/associated_token_account"
-	mtm "github.com/donutnomad/solana-web3/mpl_token_metadata"
-	. "github.com/donutnomad/solana-web3/spl_token_2022"
-	. "github.com/donutnomad/solana-web3/spl_token_2022/extension"
-	"github.com/donutnomad/solana-web3/token_metadata"
-	"github.com/donutnomad/solana-web3/web3"
+
+	ata "github.com/fanyanjun/solana-web3/associated_token_account"
+	mtm "github.com/fanyanjun/solana-web3/mpl_token_metadata"
+	. "github.com/fanyanjun/solana-web3/spl_token_2022"
+	. "github.com/fanyanjun/solana-web3/spl_token_2022/extension"
+	"github.com/fanyanjun/solana-web3/token_metadata"
+	"github.com/fanyanjun/solana-web3/web3"
 	"github.com/gagliardetto/solana-go/programs/system"
 )
 

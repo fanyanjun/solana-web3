@@ -2,8 +2,9 @@ package irys
 
 import (
 	"context"
-	"github.com/donutnomad/solana-web3/web3"
 	"strings"
+
+	"github.com/fanyanjun/solana-web3/web3"
 )
 
 func UploadLogoAndMetadata(

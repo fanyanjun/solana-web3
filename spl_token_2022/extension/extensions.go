@@ -2,20 +2,21 @@ package extension
 
 import (
 	"errors"
-	. "github.com/donutnomad/solana-web3/spl_token_2022"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/cpi_guard"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/default_account_state"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/group_member_pointer"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/group_pointer"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/interest_bearing_mint"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/memo_transfer"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/metadata_pointer"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/token_group"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/transfer_fee"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/transfer_hook"
-	"github.com/donutnomad/solana-web3/token_metadata"
-	"github.com/donutnomad/solana-web3/web3"
 	"reflect"
+
+	. "github.com/fanyanjun/solana-web3/spl_token_2022"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/cpi_guard"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/default_account_state"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/group_member_pointer"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/group_pointer"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/interest_bearing_mint"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/memo_transfer"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/metadata_pointer"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/token_group"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/transfer_fee"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/transfer_hook"
+	"github.com/fanyanjun/solana-web3/token_metadata"
+	"github.com/fanyanjun/solana-web3/web3"
 )
 
 type GroupMemberPointerParams struct {

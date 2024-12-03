@@ -6,7 +6,8 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/donutnomad/solana-web3/web3"
+
+	"github.com/fanyanjun/solana-web3/web3"
 	"github.com/linkedin/goavro/v2"
 )
 

@@ -4,7 +4,7 @@
 package mpl_token_metadata
 
 import (
-	common "github.com/donutnomad/solana-web3/common"
+	common "github.com/fanyanjun/solana-web3/common"
 	binary "github.com/gagliardetto/binary"
 )
 

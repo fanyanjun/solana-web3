@@ -2,8 +2,9 @@ package web3kit
 
 import (
 	"context"
-	"github.com/donutnomad/solana-web3/web3"
 	"testing"
+
+	"github.com/fanyanjun/solana-web3/web3"
 )
 
 func TestGetTokenName(t *testing.T) {

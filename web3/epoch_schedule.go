@@ -1,7 +1,7 @@
 package web3
 
 import (
-	"github.com/donutnomad/solana-web3/web3/utils"
+	"github.com/fanyanjun/solana-web3/web3/utils"
 )
 
 const MINIMUM_SLOT_PER_EPOCH = 32

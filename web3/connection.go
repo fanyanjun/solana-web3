@@ -7,13 +7,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/donutnomad/solana-web3/web3/utils"
-	binary "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/programs/system"
-	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/gagliardetto/solana-go/rpc/ws"
-	"github.com/mr-tron/base58"
 	"io"
 	"log"
 	"math/big"
@@ -22,6 +15,14 @@ import (
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/fanyanjun/solana-web3/web3/utils"
+	binary "github.com/gagliardetto/binary"
+	"github.com/gagliardetto/solana-go"
+	"github.com/gagliardetto/solana-go/programs/system"
+	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/gagliardetto/solana-go/rpc/ws"
+	"github.com/mr-tron/base58"
 )
 
 type Encoding string

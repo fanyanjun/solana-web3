@@ -1,6 +1,6 @@
 package mpl_token_metadata
 
-import "github.com/donutnomad/solana-web3/web3"
+import "github.com/fanyanjun/solana-web3/web3"
 
 func FindAssociatedAddress(
 	mint web3.PublicKey,

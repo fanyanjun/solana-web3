@@ -2,11 +2,12 @@ package web3kit
 
 import (
 	"context"
-	"github.com/donutnomad/solana-web3/spl_token_2022"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/default_account_state"
-	"github.com/donutnomad/solana-web3/spl_token_2022/extension/transfer_fee"
-	"github.com/donutnomad/solana-web3/token_metadata"
-	"github.com/donutnomad/solana-web3/web3"
+
+	"github.com/fanyanjun/solana-web3/spl_token_2022"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/default_account_state"
+	"github.com/fanyanjun/solana-web3/spl_token_2022/extension/transfer_fee"
+	"github.com/fanyanjun/solana-web3/token_metadata"
+	"github.com/fanyanjun/solana-web3/web3"
 	binary "github.com/gagliardetto/binary"
 )
 

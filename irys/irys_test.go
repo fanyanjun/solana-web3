@@ -2,11 +2,12 @@ package irys
 
 import (
 	"context"
-	"github.com/davecgh/go-spew/spew"
-	"github.com/donutnomad/solana-web3/test"
-	"github.com/donutnomad/solana-web3/web3"
-	"github.com/donutnomad/solana-web3/web3kit"
 	"testing"
+
+	"github.com/davecgh/go-spew/spew"
+	"github.com/fanyanjun/solana-web3/test"
+	"github.com/fanyanjun/solana-web3/web3"
+	"github.com/fanyanjun/solana-web3/web3kit"
 )
 
 func TestGetPrice(t *testing.T) {

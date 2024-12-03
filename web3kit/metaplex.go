@@ -2,8 +2,9 @@ package web3kit
 
 import (
 	"context"
-	mtm "github.com/donutnomad/solana-web3/mpl_token_metadata"
-	"github.com/donutnomad/solana-web3/web3"
+
+	mtm "github.com/fanyanjun/solana-web3/mpl_token_metadata"
+	"github.com/fanyanjun/solana-web3/web3"
 )
 
 // MetaPlex Metaplex https://www.metaplex.com/

@@ -1,8 +1,8 @@
 package web3kit
 
 import (
-	"github.com/donutnomad/solana-web3/token_metadata"
-	"github.com/donutnomad/solana-web3/web3"
+	"github.com/fanyanjun/solana-web3/token_metadata"
+	"github.com/fanyanjun/solana-web3/web3"
 )
 
 var TokenMeta = &tokenMeta{}

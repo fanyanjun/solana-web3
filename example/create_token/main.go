@@ -3,11 +3,12 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/donutnomad/solana-web3/example/common"
-	"github.com/donutnomad/solana-web3/irys"
-	"github.com/donutnomad/solana-web3/test"
-	"github.com/donutnomad/solana-web3/web3"
-	"github.com/donutnomad/solana-web3/web3kit"
+
+	"github.com/fanyanjun/solana-web3/example/common"
+	"github.com/fanyanjun/solana-web3/irys"
+	"github.com/fanyanjun/solana-web3/test"
+	"github.com/fanyanjun/solana-web3/web3"
+	"github.com/fanyanjun/solana-web3/web3kit"
 )
 
 func main() {

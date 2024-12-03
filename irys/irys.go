@@ -6,13 +6,14 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/donutnomad/solana-web3/web3"
-	"github.com/donutnomad/solana-web3/web3kit"
 	"io"
 	"math/big"
 	"net/http"
 	"strconv"
 	"time"
+
+	"github.com/fanyanjun/solana-web3/web3"
+	"github.com/fanyanjun/solana-web3/web3kit"
 )
 
 // IrysNode represents the Irys node.

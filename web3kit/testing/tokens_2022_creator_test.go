@@ -3,11 +3,12 @@ package testing
 import (
 	"context"
 	"fmt"
-	"github.com/donutnomad/solana-web3/irys"
-	"github.com/donutnomad/solana-web3/test"
-	"github.com/donutnomad/solana-web3/web3"
-	"github.com/donutnomad/solana-web3/web3kit"
 	"testing"
+
+	"github.com/fanyanjun/solana-web3/irys"
+	"github.com/fanyanjun/solana-web3/test"
+	"github.com/fanyanjun/solana-web3/web3"
+	"github.com/fanyanjun/solana-web3/web3kit"
 )
 
 type IrysProvider struct {

@@ -5,8 +5,8 @@ package default_account_state
 
 import (
 	"errors"
-	common "github.com/donutnomad/solana-web3/common"
-	spltoken2022 "github.com/donutnomad/solana-web3/spl_token_2022"
+	common "github.com/fanyanjun/solana-web3/common"
+	spltoken2022 "github.com/fanyanjun/solana-web3/spl_token_2022"
 	binary "github.com/gagliardetto/binary"
 	format "github.com/gagliardetto/solana-go/text/format"
 	treeout "github.com/gagliardetto/treeout"

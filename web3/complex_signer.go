@@ -1,6 +1,6 @@
 package web3
 
-import "github.com/donutnomad/solana-web3/web3/utils"
+import "github.com/fanyanjun/solana-web3/web3/utils"
 
 type ComplexSigner struct {
 	PublicKey PublicKey
