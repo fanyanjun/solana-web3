@@ -27,7 +27,8 @@ type BasicMetadataV1 struct {
 	Uri         string
 	Description string
 	Additional  map[string]string
-	Creators    *[]token_metadata.Creator
+	//add fanyanjun
+	Creators *[]token_metadata.Creator
 }
 
 func (t tokenKit2022) CreateTokenV1(
@@ -86,6 +87,18 @@ func (t tokenKit2022) CreateTokenV1(
 			Value string
 		}{Key: key, Value: value})
 	}
+
+	tors := make([]token_metadata.Creator, 0)
+	if args.BasicMetadataV1.Creators != nil {
+		for _, creator := range *args.BasicMetadataV1.Creators {
+			tors = append(tors, token_metadata.Creator{
+				Address:  creator.Address,
+				Verified: creator.Verified,
+				Share:    creator.Share,
+			})
+		}
+	}
+
 	tokenMetadata := token_metadata.TokenMetadata{
 		UpdateAuthority:    mintAuthority,
 		Mint:               tokenKeypair.PublicKey(),
@@ -93,6 +106,7 @@ func (t tokenKit2022) CreateTokenV1(
 		Symbol:             args.Symbol,
 		Uri:                args.Uri, //metadataURI
 		AdditionalMetadata: additionalMetadata,
+		Creators:           &tors,
 	}
 	sig, err := Token2022.CreateMint(
 		ctx,
